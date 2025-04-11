@@ -1,64 +1,58 @@
-# 🧠 Areakt
+# 🎼 AkordAI
 
-**Areakt** is a modular, agentic reasoning and action toolkit — a flexible DSL and orchestration framework for building AI workflows grounded in **reasoning**, **tool use**, and **task execution**.
+**AkordAI** is an open-source organization focused on building declarative, modular tools for designing and executing Agentic AI systems.
 
-> **Areakt** = *Agentic Reason + Act on Knowledge & Tasks*
-
----
-
-## ✨ What is Areakt?
-
-Areakt helps you define, compose, and execute AI agent workflows using a simple, declarative language. It’s inspired by the ReAct pattern, enriched with task-awareness, memory, planning, and modular integration.
-
-Whether you're using Semantic Kernel, LangChain, or your own LLM orchestration stack, **Areakt** provides a unified way to describe and run agent workflows that reason, decide, and act.
+At its core is a powerful **DSL (Domain-Specific Language)** for defining reasoning agents, AI components, tool integrations, contextual memory, and multi-agent workflows — enabling developers to compose intelligent behavior through orchestration, not just code.
 
 ---
 
-## ✅ Core Concepts
+## 🧠 What We Build
 
-- **Reason → Act**: All agents follow a thought → action → observation loop.
-- **Tasks & Tools**: Define knowledge-based or external function calls.
-- **Plans & Flows**: Orchestrate sequences or trees of actions.
-- **Multi-agent Ready**: Compose specialized agents for grammar, accuracy, decisions, etc.
-- **Language-Agnostic**: YAML/JSON spec; can be executed in any backend.
-
----
-
-## 📦 Ecosystem (coming soon)
-
-- `@areakt/core` – Core DSL and runtime  
-- `@areakt/sk` – Integration with Semantic Kernel  
-- `@areakt/cli` – CLI to run, validate, and debug Areakt plans  
-- `@areakt/agentlib` – Reusable agent definitions and strategies
+- **📜 Declarative DSL** — to define agent capabilities, goals, tools, workflows, memory usage, and execution logic
+- **🧩 Agent Infrastructure** — including reasoning strategies, skills, instructions, memory binding, and tool use
+- **⚙️ Runtimes & Executors** — for single-agent flows, parallel agent collaboration, and convergent decision-making
+- **🧠 Memory Systems** — static, vector, file-based, and key-value memory for context retrieval and learning
+- **🔌 Toolset Integration** — OpenAPI and MCP-based tools that agents can invoke during reasoning
+- **🌍 Provider Abstraction** — support for OpenAI, Azure, HuggingFace, Ollama, Redis, Qdrant, and more
 
 ---
 
-## 🧩 Why Areakt?
+## ✨ What Does "AkordAI" Mean?
 
-| Feature          | Benefit                                         |
-|------------------|--------------------------------------------------|
-| 🔁 Reason + Act  | Aligned with ReAct and modern agent flow         |
-| 🧱 Declarative   | Easy to write, inspect, and share plans          |
-| 🧠 Modular       | Compose agents, skills, tools as building blocks |
-| ⚙️ Framework-agnostic | Works with SK, LangChain, AutoGen, etc.     |
-| 🧪 Extendable    | Build your own agent types and patterns          |
+**AkordAI** stands for:
 
----
+> **A**gentic  
+> **K**nowledge  
+> **O**rchestration for  
+> **R**easoning and  
+> **D**ecision-making in  
+> **A**rtificial  
+> **I**ntelligence
 
-## 🌐 Status
-
-Areakt is in early development. Contributions, ideas, and use cases are welcome!
-
-Want to get involved? Reach out or follow our progress here.
+It also evokes the idea of an **"accord"** — a harmonious composition — reflecting our vision of intelligent agents reasoning together, in sync.
 
 ---
 
-## 🧭 Philosophy
+## 📦 Repositories
 
-Areakt embraces a **"thought-first" agent architecture** — where reasoning, memory, tools, and goals work together to produce explainable, context-rich outputs from AI agents.
-
-```
-Reason → Plan → Act → Observe → Repeat
-```
+| Repo                                            | Description                                                                     |
+|-------------------------------------------------|---------------------------------------------------------------------------------|
+| [`dsl`](https://github.com/akordai/dsl)         | Domain Specific Language (DSL) for declaratively describing Agentic AI systems  |
+| [`net-sdk`](https://github.com/akordai/net-sdk) | .NET SDK for working with AkordAI plans, runtimes, and agent infrastructure     |
+| [`runtime`](https://github.com/akordai/runtime) | Execution engine for reasoning workflows and multi-agent orchestration          |
 
 ---
+
+## 🤝 Contributing
+
+We welcome contributors! Start with [CONTRIBUTING.md](https://github.com/akordai/.github/blob/main/CONTRIBUTING.md) and help shape the future of orchestrated AI reasoning.
+
+---
+
+## 📄 License
+
+All projects are released under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
+
+---
+
+**→ Compose intelligence. Reason in harmony. Orchestrate with AkordAI.**
